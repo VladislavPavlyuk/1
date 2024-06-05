@@ -3,7 +3,7 @@
 
 <?php
 
-function reverseNumberWithoutStrrev($number) {
+function reverseNumber($number) {
   $number_str = (string)$number;
   $reversed_number = '';
   for ($i = strlen($number_str) - 1; $i >= 0; $i--) {
@@ -14,7 +14,7 @@ function reverseNumberWithoutStrrev($number) {
 
 $number = '347689';
 echo "<br>$number<br>";
-echo reverseNumberWithoutStrrev($number); 
+echo reverseNumber($number); 
 
 
 ?>
